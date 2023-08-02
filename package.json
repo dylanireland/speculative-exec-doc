@@ -1,0 +1,23 @@
+{
+  "name": "speculative-exec-doc",
+  "version": "1.0.0",
+  "description": "Document and accompanying test of the speculative execution endpoint on the Casper testnet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanireland/speculative-exec-doc.git"
+  },
+  "author": "Dylan Ireland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylanireland/speculative-exec-doc/issues"
+  },
+  "homepage": "https://github.com/dylanireland/speculative-exec-doc#readme",
+  "dependencies": {
+    "casper-js-sdk": "^2.14.0",
+    "dotenv": "^16.3.1"
+  }
+}
