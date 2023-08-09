@@ -8,7 +8,7 @@ const {
 
 const keys = Keys.Ed25519.loadKeyPairFromPrivateFile("./keys/secret_key.pem");
 
-const client = new CasperClient("http://52.34.201.174:7777/rpc");
+const client = new CasperClient(`http://${process.env.NODE_ADDRESS}:7777/rpc`);
 
 let deployParams = new DeployUtil.DeployParams(keys.publicKey, "casper-test");
 
